@@ -2,14 +2,14 @@
 Version: 1.0.0
 Webhooks:
   # All of the following accept a DISCORDWEBHOOKURL or false.
-  alerts: false
-  system: false
+  alerts: true
+  system: true
 
 Messages:
   # Message shown to all players on a ban/kick
-  onban: "§4[MAVORIC] A player has been removed from your game for abusing or hacking. Thanks for reporting them!"
+  onban: "Hile tespit edildi"
   # Message shown to player who epearl glitches
-  onpearl: "§cEpearl glitch detected. Reverted movement."
+  onpearl: "§cOlağan üstü birşeyler algılandı."
   
   TPS:
     # Whether or not to enable TPS check messages
@@ -24,7 +24,7 @@ Messages:
     # Format of alert messages
     # {player} - Player alert is for
     # {cheat} - Cheat they violated.
-    format: "§c[MAVORIC]: §r§4{player} §7failed test for§c {cheat}§8: "
+    format: "§c[DMC]: §r§4{player} §7tespit edildi {cheat}§8: "
 
 Autoban:
   # Should autobans be enabled? (IF THIS IS ENABLED, BANWAVES ARE OVERRIDDEN REGARDLESS IF BANWAVES ARE ENABLED!)
@@ -71,56 +71,56 @@ Cheats:
   AutoClicker:
     disabled: no
     suppress: yes
-    reason: HummingBird
+    reason: Makro - AutoClicker
   AutoArmor:
     disabled: no
     suppress: yes
-    reason: Shielded
+    reason: AutoArmor
   Flight:
     disabled: no
     suppress: yes
-    reason: HawkEye
+    reason: Flight
   HighJump:
     disabled: no
     suppress: yes
-    reason: BlueBird
+    reason: HighJump
   Jesus:
     disabled: no
     suppress: yes
-    reason: Strider
+    reason: Jesus
   Jetpack:
     disabled: no
     suppress: yes
-    reason: Electro
+    reason: Jetpack
   KillAura:
     disabled: no
     suppress: yes
-    reason: Lion
+    reason: KillAura
   MultiAura:
     disabled: no
     suppress: yes
-    reason: Sniper
+    reason: MultiAura
   NoStackItems:
     disabled: yes
     suppress: yes
-    reason: Juggler
+    reason: NoStackItems
   NoClip:
     disabled: no
     suppress: yes
-    reason: WoodPecker
+    reason: NoClip
   Reach:
     set-max: no
     disabled: no
     suppress: yes
-    reason: Gibbon
+    reason: Reach
   Speed:
     disabled: no
     suppress: yes
-    reason: Cheetah
+    reason: Speed
   Teleport:
     disabled: no
     suppress: yes
-    reason: Marlin
+    reason: Teleport
   
   
 
