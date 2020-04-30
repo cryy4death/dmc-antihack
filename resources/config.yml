@@ -1,6 +1,6 @@
 # Config version, recommended to not touch this, will cause config to be overwrote
 Version: 1.0.0
-Webhooks:
+Webhooks:https://discordapp.com/api/webhooks/705441547692408982/3olPZtrnBefQE83krguI5mFYdHP_7D2gDl0NKnqtq20UF6D_W5APly5MLtlnAhOURoxT
   # All of the following accept a DISCORDWEBHOOKURL or false.
   alerts: true
   system: true
